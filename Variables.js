@@ -12,7 +12,7 @@ let x = 5;       //Variables defined with let can not be redeclared.
 let y = 6;
 let z = x + y;
 
-const x = 5;
+const x = 5;     //Variables defined with const cannot be Redeclared or Reassigned.
 const y = 6;
 const z = x + y;
 
