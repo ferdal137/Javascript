@@ -68,3 +68,8 @@ let char = text.charAt(0);
 text.split(",")    // Split on commas
 text.split(" ")    // Split on spaces
 text.split("|")    // Split on pipe
+
+
+//Template Literals
+//Template Literals use back-ticks (``) rather than the quotes ("") to define a string
+let tl_text = `He's often called "Johnny"`;
