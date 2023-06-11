@@ -53,3 +53,15 @@ const nestedArray = [1, [2, 3], [4, [5, 6]]];
 const flattenedArray = nestedArray.flat(2);
 console.log(flattenedArray); // Output: [1, 2, 3, 4, 5, 6]
 // Creates a new flattened array from a nested array up to the specified depth.
+
+//Array splice()
+const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
+fruits2.splice(0, 1); 
+console.log(fruits2) //Output: ["Orange", "Apple", "Mango"]
+//With clever parameter setting, you can use splice() to remove elements without leaving "holes" in the array
+
+//Array slice()
+const fruits3 = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits3.slice(1);
+console.log(citrus) // Output: [ 'Orange', 'Lemon', 'Apple', 'Mango' ]
+//The slice() method slices out a piece of an array into a new array.
